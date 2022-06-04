@@ -1,0 +1,458 @@
+2022-06-04 22:37:01.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg") returned 
+2022-06-04 22:37:01.307 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg") returned 
+2022-06-04 22:37:01.307 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:01.307 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:01.308 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211007 (7cm/4colors)', '1', 79000, 
+47400, 31600, '펌프스 412211007 (7cm/4colors)', 'f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg', 
+'thumbnail-f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:01.312 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211007 (7cm/4colors)', '1', 79000, 
+47400, 31600, '펌프스 412211007 (7cm/4colors)', 'f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg', 
+'thumbnail-f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg', 'y', 'n', sysdate) 
+ {executed in 4 msec}
+2022-06-04 22:37:01.313 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:01.313 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:01.313 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:01.314 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:01.314 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:01.314 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:01.314 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 79000
+2022-06-04 22:37:01.315 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 47400
+2022-06-04 22:37:01.700 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:01.911 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:01.911 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211001 (4.5cm/3colors), kind=1, price1=79000, price2=47400, price3=31600, content=펌프스 412211001 (4.5cm/3colors), image=aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg, thumbImage=thumbnail-aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:01.911 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:01.911 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:01.912 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:01.912 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@65004ff6
+2022-06-04 22:37:01.912 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211001 (4.5cm/3colors)") returned 
+2022-06-04 22:37:01.912 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:01.912 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 79000) returned 
+2022-06-04 22:37:01.913 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 47400) returned 
+2022-06-04 22:37:01.913 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 31600) returned 
+2022-06-04 22:37:01.913 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211001 (4.5cm/3colors)") returned 
+2022-06-04 22:37:01.913 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg") returned 
+2022-06-04 22:37:01.913 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg") returned 
+2022-06-04 22:37:01.914 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:01.914 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:01.914 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211001 (4.5cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412211001 (4.5cm/3colors)', 'aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg', 
+'thumbnail-aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:01.915 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211001 (4.5cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412211001 (4.5cm/3colors)', 'aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg', 
+'thumbnail-aef817ee-aeb3-41bf-8d3e-e1367b4c5e1b_1000000609.jpg', 'y', 'n', sysdate) 
+ {executed in 0 msec}
+2022-06-04 22:37:01.915 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:01.915 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:01.915 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:01.915 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:01.915 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:01.915 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:01.916 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 79000
+2022-06-04 22:37:01.916 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 47400
+2022-06-04 22:37:02.274 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:02.488 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:02.488 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211002 (6.5cm/3colors), kind=1, price1=79000, price2=47400, price3=31600, content=펌프스 412211002 (6.5cm/3colors), image=9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg, thumbImage=thumbnail-9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:02.488 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:02.488 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:02.489 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:02.489 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@55b8dbda
+2022-06-04 22:37:02.489 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211002 (6.5cm/3colors)") returned 
+2022-06-04 22:37:02.490 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:02.490 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 79000) returned 
+2022-06-04 22:37:02.490 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 47400) returned 
+2022-06-04 22:37:02.490 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 31600) returned 
+2022-06-04 22:37:02.491 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211002 (6.5cm/3colors)") returned 
+2022-06-04 22:37:02.491 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg") returned 
+2022-06-04 22:37:02.491 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg") returned 
+2022-06-04 22:37:02.491 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:02.491 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:02.492 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211002 (6.5cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412211002 (6.5cm/3colors)', '9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg', 
+'thumbnail-9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:02.492 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211002 (6.5cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412211002 (6.5cm/3colors)', '9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg', 
+'thumbnail-9903a3bb-2882-47a7-ac51-c9c0addcdedb_1000000608.jpg', 'y', 'n', sysdate) 
+ {executed in 0 msec}
+2022-06-04 22:37:02.493 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:02.493 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:02.493 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:02.493 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:02.493 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:02.493 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:02.493 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 79000
+2022-06-04 22:37:02.494 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 39500
+2022-06-04 22:37:02.866 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:03.027 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:03.027 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211008 (6.5cm/3colors), kind=1, price1=79000, price2=39500, price3=39500, content=펌프스 412211008 (6.5cm/3colors), image=c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg, thumbImage=thumbnail-c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:03.028 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:03.028 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:03.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:03.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1ecfcbc9
+2022-06-04 22:37:03.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211008 (6.5cm/3colors)") returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 79000) returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 39500) returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 39500) returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211008 (6.5cm/3colors)") returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg") returned 
+2022-06-04 22:37:03.029 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg") returned 
+2022-06-04 22:37:03.030 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:03.030 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:03.030 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211008 (6.5cm/3colors)', '1', 79000, 
+39500, 39500, '펌프스 412211008 (6.5cm/3colors)', 'c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg', 
+'thumbnail-c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:03.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211008 (6.5cm/3colors)', '1', 79000, 
+39500, 39500, '펌프스 412211008 (6.5cm/3colors)', 'c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg', 
+'thumbnail-c7655314-275d-4ec2-a200-3ec5ee2120fa_1000000603.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:37:03.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:03.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:03.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:03.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:03.031 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:03.032 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:03.032 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 79000
+2022-06-04 22:37:03.032 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 47400
+2022-06-04 22:37:03.450 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:03.646 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:03.647 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412212006 (5cm/3colors), kind=1, price1=79000, price2=47400, price3=31600, content=펌프스 412212006 (5cm/3colors), image=758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg, thumbImage=thumbnail-758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:03.647 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:03.647 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:03.647 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:03.647 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@388b401d
+2022-06-04 22:37:03.647 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412212006 (5cm/3colors)") returned 
+2022-06-04 22:37:03.648 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:03.648 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 79000) returned 
+2022-06-04 22:37:03.648 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 47400) returned 
+2022-06-04 22:37:03.648 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 31600) returned 
+2022-06-04 22:37:03.648 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412212006 (5cm/3colors)") returned 
+2022-06-04 22:37:03.648 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg") returned 
+2022-06-04 22:37:03.649 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg") returned 
+2022-06-04 22:37:03.649 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:03.649 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:03.649 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412212006 (5cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412212006 (5cm/3colors)', '758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg', 
+'thumbnail-758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:03.650 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412212006 (5cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412212006 (5cm/3colors)', '758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg', 
+'thumbnail-758cb2f0-cc55-4900-93fa-dc8233466939_1000000592.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:37:03.650 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:03.650 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:03.650 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:03.650 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:03.651 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:03.651 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:03.651 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 89000
+2022-06-04 22:37:03.651 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 53400
+2022-06-04 22:37:04.054 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:05.105 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:05.105 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211005 (6.5cm/2colors), kind=1, price1=89000, price2=53400, price3=35600, content=펌프스 412211005 (6.5cm/2colors), image=255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg, thumbImage=thumbnail-255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:05.105 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:05.106 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:05.106 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:05.106 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@78c1a023
+2022-06-04 22:37:05.107 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211005 (6.5cm/2colors)") returned 
+2022-06-04 22:37:05.107 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:05.107 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 89000) returned 
+2022-06-04 22:37:05.107 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 53400) returned 
+2022-06-04 22:37:05.107 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 35600) returned 
+2022-06-04 22:37:05.108 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211005 (6.5cm/2colors)") returned 
+2022-06-04 22:37:05.108 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg") returned 
+2022-06-04 22:37:05.108 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg") returned 
+2022-06-04 22:37:05.108 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:05.108 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:05.108 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211005 (6.5cm/2colors)', '1', 89000, 
+53400, 35600, '펌프스 412211005 (6.5cm/2colors)', '255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg', 
+'thumbnail-255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:05.109 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211005 (6.5cm/2colors)', '1', 89000, 
+53400, 35600, '펌프스 412211005 (6.5cm/2colors)', '255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg', 
+'thumbnail-255aeb05-5050-4211-bb67-f2d859156f6d_1000000587.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:37:05.109 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:05.109 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:05.110 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:05.110 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:05.110 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:05.110 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:05.110 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 89000
+2022-06-04 22:37:05.110 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 53400
+2022-06-04 22:37:05.493 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:05.664 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:05.664 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211010 (10.5cm/4colors), kind=1, price1=89000, price2=53400, price3=35600, content=펌프스 412211010 (10.5cm/4colors), image=6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg, thumbImage=thumbnail-6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:05.665 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:05.665 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:05.665 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:05.665 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7fab4be7
+2022-06-04 22:37:05.665 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211010 (10.5cm/4colors)") returned 
+2022-06-04 22:37:05.665 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 89000) returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 53400) returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 35600) returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211010 (10.5cm/4colors)") returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg") returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg") returned 
+2022-06-04 22:37:05.666 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:05.667 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:05.667 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211010 (10.5cm/4colors)', '1', 89000, 
+53400, 35600, '펌프스 412211010 (10.5cm/4colors)', '6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg', 
+'thumbnail-6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:05.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211010 (10.5cm/4colors)', '1', 89000, 
+53400, 35600, '펌프스 412211010 (10.5cm/4colors)', '6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg', 
+'thumbnail-6cf0634a-41c2-4d8b-91f8-866e655c872e_1000000585.jpg', 'y', 'n', sysdate) 
+ {executed in 6 msec}
+2022-06-04 22:37:05.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:05.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:05.674 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:05.674 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:05.674 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:05.674 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:05.674 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 89000
+2022-06-04 22:37:05.674 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 53400
+2022-06-04 22:37:06.046 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:06.251 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:06.251 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211011 (7cm/2colors), kind=1, price1=89000, price2=53400, price3=35600, content=펌프스 412211011 (7cm/2colors), image=73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg, thumbImage=thumbnail-73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:06.251 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:06.251 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:06.251 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:06.252 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6093d508
+2022-06-04 22:37:06.252 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211011 (7cm/2colors)") returned 
+2022-06-04 22:37:06.252 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:06.252 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 89000) returned 
+2022-06-04 22:37:06.252 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 53400) returned 
+2022-06-04 22:37:06.253 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 35600) returned 
+2022-06-04 22:37:06.253 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211011 (7cm/2colors)") returned 
+2022-06-04 22:37:06.253 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg") returned 
+2022-06-04 22:37:06.253 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg") returned 
+2022-06-04 22:37:06.253 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:06.253 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:06.254 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211011 (7cm/2colors)', '1', 89000, 
+53400, 35600, '펌프스 412211011 (7cm/2colors)', '73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg', 
+'thumbnail-73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:06.254 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211011 (7cm/2colors)', '1', 89000, 
+53400, 35600, '펌프스 412211011 (7cm/2colors)', '73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg', 
+'thumbnail-73737b05-9036-46ba-987d-2e71ce7d0326_1000000584.jpg', 'y', 'n', sysdate) 
+ {executed in 0 msec}
+2022-06-04 22:37:06.255 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:06.255 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:06.255 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:06.255 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:06.255 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:06.255 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:06.256 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 79000
+2022-06-04 22:37:06.256 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 47400
+2022-06-04 22:37:06.617 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:07.193 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:07.193 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211012 (6cm/3colors), kind=1, price1=79000, price2=47400, price3=31600, content=펌프스 412211012 (6cm/3colors), image=c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg, thumbImage=thumbnail-c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:07.194 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:07.194 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:07.194 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:07.194 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@40d10481
+2022-06-04 22:37:07.194 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211012 (6cm/3colors)") returned 
+2022-06-04 22:37:07.194 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 79000) returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 47400) returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 31600) returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211012 (6cm/3colors)") returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg") returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg") returned 
+2022-06-04 22:37:07.195 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:07.196 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:07.196 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211012 (6cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412211012 (6cm/3colors)', 'c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg', 
+'thumbnail-c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:07.197 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211012 (6cm/3colors)', '1', 79000, 
+47400, 31600, '펌프스 412211012 (6cm/3colors)', 'c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg', 
+'thumbnail-c4ea0648-bf8c-433f-b8f4-6b38fcc79a92_1000000583.jpg', 'y', 'n', sysdate) 
+ {executed in 0 msec}
+2022-06-04 22:37:07.197 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:07.197 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:07.197 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:07.197 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:07.197 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:07.197 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:07.198 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 89000
+2022-06-04 22:37:07.198 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 53400
+2022-06-04 22:37:07.575 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:08.511 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:08.511 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211013 (8.5cm/3colors), kind=1, price1=89000, price2=53400, price3=35600, content=펌프스 412211013 (8.5cm/3colors), image=7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg, thumbImage=thumbnail-7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:08.511 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:08.511 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:08.511 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1dcca8d3
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211013 (8.5cm/3colors)") returned 
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 89000) returned 
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 53400) returned 
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 35600) returned 
+2022-06-04 22:37:08.512 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211013 (8.5cm/3colors)") returned 
+2022-06-04 22:37:08.513 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg") returned 
+2022-06-04 22:37:08.513 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg") returned 
+2022-06-04 22:37:08.513 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:08.513 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:08.513 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211013 (8.5cm/3colors)', '1', 89000, 
+53400, 35600, '펌프스 412211013 (8.5cm/3colors)', '7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg', 
+'thumbnail-7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:08.514 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211013 (8.5cm/3colors)', '1', 89000, 
+53400, 35600, '펌프스 412211013 (8.5cm/3colors)', '7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg', 
+'thumbnail-7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:37:08.514 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:08.514 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:08.514 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:08.514 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:08.514 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:08.514 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:37:08.515 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 89000
+2022-06-04 22:37:08.515 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 53400
+2022-06-04 22:37:08.879 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:09.748 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:09.748 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211006 (6.5cm/3colors), kind=1, price1=89000, price2=53400, price3=35600, content=펌프스 412211006 (6.5cm/3colors), image=c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg, thumbImage=thumbnail-c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:09.748 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:09.748 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2b8bd14b
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211006 (6.5cm/3colors)") returned 
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 89000) returned 
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 53400) returned 
+2022-06-04 22:37:09.749 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 35600) returned 
+2022-06-04 22:37:09.750 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211006 (6.5cm/3colors)") returned 
+2022-06-04 22:37:09.750 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg") returned 
+2022-06-04 22:37:09.750 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg") returned 
+2022-06-04 22:37:09.750 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:37:09.750 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:37:09.750 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211006 (6.5cm/3colors)', '1', 89000, 
+53400, 35600, '펌프스 412211006 (6.5cm/3colors)', 'c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg', 
+'thumbnail-c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:37:09.751 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '펌프스 412211006 (6.5cm/3colors)', '1', 89000, 
+53400, 35600, '펌프스 412211006 (6.5cm/3colors)', 'c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg', 
+'thumbnail-c2fca943-70d4-4569-adfd-c3bf1c4ef3d8_1000000581.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:37:09.751 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:37:09.751 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:37:09.751 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:37:09.751 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:37:09.752 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:37:09.752 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장

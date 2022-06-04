@@ -1,0 +1,331 @@
+2022-06-04 23:06:26.997 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(USEYN) returned n
+2022-06-04 23:06:27.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 
+|------|
+|useyn |
+|------|
+|n     |
+|------|
+
+2022-06-04 23:06:27.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:27.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:27.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:27.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:27.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:27.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.commit() returned 
+2022-06-04 23:06:27.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:27.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:27.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:27.012 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-22] -- MemberService.getMember
+2022-06-04 23:06:27.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:27.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:27.013 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-22] -- MemberDAO.getMember
+2022-06-04 23:06:27.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:27.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:27.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.prepareStatement(SELECT * FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@ab4bff2
+2022-06-04 23:06:27.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:06:27.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT * FROM member WHERE id='abcd1234' 
+
+2022-06-04 23:06:27.027 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT * FROM member WHERE id='abcd1234' 
+ {executed in 13 msec}
+2022-06-04 23:06:27.027 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:27.027 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:27.027 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@77895c64
+2022-06-04 23:06:27.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@759d3c90
+2022-06-04 23:06:27.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:27.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.030 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(ID) returned abcd1234
+2022-06-04 23:06:27.030 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(PWD) returned #Abcd1234
+2022-06-04 23:06:27.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(NAME) returned 홍길동
+2022-06-04 23:06:27.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(EMAIL) returned abcd@abcd.com
+2022-06-04 23:06:27.031 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.032 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(PHONE) returned 010-1324-5678
+2022-06-04 23:06:27.032 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.032 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(ZIP_NUM) returned 07714
+2022-06-04 23:06:27.032 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.033 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(ADDRESS1) returned 서울특별시 강서구 화곡로 149(화곡동)
+2022-06-04 23:06:27.033 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.033 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(ADDRESS2) returned 심당빌딩 404호
+2022-06-04 23:06:27.033 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.033 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(USEYN) returned n
+2022-06-04 23:06:27.034 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.034 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getTimestamp(INDATE) returned 2022-04-14 12:45:23.0
+2022-06-04 23:06:27.034 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.034 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 
+|---------|----------|-----|--------------|--------------|--------|-----------------------|----------|------|----------------------|
+|id       |pwd       |name |email         |phone         |zip_num |address1               |address2  |useyn |indate                |
+|---------|----------|-----|--------------|--------------|--------|-----------------------|----------|------|----------------------|
+|abcd1234 |#Abcd1234 |홍길동  |abcd@abcd.com |010-1324-5678 |07714   |서울특별시 강서구 화곡로 149(화곡동) |심당빌딩 404호 |n     |2022-04-14 12:45:23.0 |
+|---------|----------|-----|--------------|--------------|--------|-----------------------|----------|------|----------------------|
+
+2022-06-04 23:06:27.035 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:27.035 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:27.035 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:27.035 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:27.035 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:27.035 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.commit() returned 
+2022-06-04 23:06:27.036 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:27.036 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:27.036 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:27.036 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-22] -- MemberService.getRole
+2022-06-04 23:06:27.037 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:27.037 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:27.037 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-22] -- MemberDAO.getRole
+2022-06-04 23:06:27.037 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:27.038 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:27.038 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.prepareStatement(SELECT role FROM member_role WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@667faa9f
+2022-06-04 23:06:27.038 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:06:27.038 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT role FROM member_role WHERE id='abcd1234' 
+
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT role FROM member_role WHERE id='abcd1234' 
+ {executed in 1 msec}
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@18d98349
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@54c5a0fc
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:27.039 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.040 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(ROLE) returned user
+2022-06-04 23:06:27.040 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.040 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 
+|-----|
+|role |
+|-----|
+|user |
+|-----|
+
+2022-06-04 23:06:27.040 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:27.040 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:27.040 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:27.041 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:27.041 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:27.041 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.commit() returned 
+2022-06-04 23:06:27.041 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:27.041 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:27.041 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:27.048 [INFO ] [com.javateam.project.controller.HomeController] [http-nio-0.0.0.0-8080-exec-23] -- home
+2022-06-04 23:06:27.052 [INFO ] [com.javateam.project.controller.HomeController] [http-nio-0.0.0.0-8080-exec-24] -- index
+2022-06-04 23:06:27.053 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:27.053 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:27.053 [INFO ] [com.javateam.project.repository.ProductDAO] [http-nio-0.0.0.0-8080-exec-24] -- ProductDAO.listBestProduct
+2022-06-04 23:06:27.053 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:27.054 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:27.054 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.prepareStatement(SELECT * FROM best_pro_view) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@18ef99b9
+2022-06-04 23:06:27.054 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- SELECT * FROM best_pro_view 
+
+2022-06-04 23:06:27.055 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- SELECT * FROM best_pro_view 
+ {executed in 1 msec}
+2022-06-04 23:06:27.055 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:27.055 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:27.055 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5ded04c0
+2022-06-04 23:06:27.055 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@70c1240e
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 584
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned 펌프스 412211013 (8.5cm/3colors)
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.056 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 53400
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned 7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 563
+2022-06-04 23:06:27.057 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned 앵클부츠 412146002 (5.5cm/3colors)
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 44500
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned f19ecb06-9d4b-4bd3-bbb0-46c42d93dcc4_1000000525.jpg
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-f19ecb06-9d4b-4bd3-bbb0-46c42d93dcc4_1000000525.jpg
+2022-06-04 23:06:27.058 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 558
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned [★이주빈 착용]앵클부츠 412146001 (5.5cm/3colors)
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 44500
+2022-06-04 23:06:27.059 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned 9b6ba809-771b-4008-9855-78ef628f2fed_1000000526.jpg
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-9b6ba809-771b-4008-9855-78ef628f2fed_1000000526.jpg
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 530
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.060 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned 뮬 412123026 (9cm/4colors)
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 34500
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned 2d391dd3-306c-4b10-a94e-f1d59a552e3b_1000000497.jpg
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-2d391dd3-306c-4b10-a94e-f1d59a552e3b_1000000497.jpg
+2022-06-04 23:06:27.061 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.062 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 
+|-----|----------------------------------------|-------|----------------------------------------------------|--------------------------------------------------------------|
+|pseq |name                                    |price2 |image                                               |thumb_image                                                   |
+|-----|----------------------------------------|-------|----------------------------------------------------|--------------------------------------------------------------|
+|584  |펌프스 412211013 (8.5cm/3colors)           |53400  |7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg |thumbnail-7b9e6fd1-9df8-4f34-b3ca-6d8de62dd448_1000000582.jpg |
+|563  |앵클부츠 412146002 (5.5cm/3colors)          |44500  |f19ecb06-9d4b-4bd3-bbb0-46c42d93dcc4_1000000525.jpg |thumbnail-f19ecb06-9d4b-4bd3-bbb0-46c42d93dcc4_1000000525.jpg |
+|558  |[★이주빈 착용]앵클부츠 412146001 (5.5cm/3colors) |44500  |9b6ba809-771b-4008-9855-78ef628f2fed_1000000526.jpg |thumbnail-9b6ba809-771b-4008-9855-78ef628f2fed_1000000526.jpg |
+|530  |뮬 412123026 (9cm/4colors)               |34500  |2d391dd3-306c-4b10-a94e-f1d59a552e3b_1000000497.jpg |thumbnail-2d391dd3-306c-4b10-a94e-f1d59a552e3b_1000000497.jpg |
+|-----|----------------------------------------|-------|----------------------------------------------------|--------------------------------------------------------------|
+
+2022-06-04 23:06:27.062 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:27.062 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:27.062 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:27.062 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:27.062 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:27.063 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.commit() returned 
+2022-06-04 23:06:27.063 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:27.063 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:27.063 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:27.064 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:27.064 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:27.064 [INFO ] [com.javateam.project.repository.ProductDAO] [http-nio-0.0.0.0-8080-exec-24] -- ProductDAO.listNewProduct
+2022-06-04 23:06:27.064 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:27.064 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:27.064 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.prepareStatement(SELECT * FROM new_pro_view) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3dc2fb8f
+2022-06-04 23:06:27.064 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- SELECT * FROM new_pro_view 
+
+2022-06-04 23:06:27.065 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- SELECT * FROM new_pro_view 
+ {executed in 1 msec}
+2022-06-04 23:06:27.065 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:27.065 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@445a496d
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@7a47615e
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 594
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned 펌프스 412131004 (7cm/3colors)
+2022-06-04 23:06:27.066 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 39500
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned e9e0d69f-93cb-4959-b353-b5aa32e72836_1000000528.jpg
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-e9e0d69f-93cb-4959-b353-b5aa32e72836_1000000528.jpg
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.067 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 592
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned 펌프스 412131006 (5.5cm/3colors)
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 39500
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned c82e440d-87b8-477b-93e5-8b11590aab5e_1000000536.jpg
+2022-06-04 23:06:27.068 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-c82e440d-87b8-477b-93e5-8b11590aab5e_1000000536.jpg
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 593
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned [★로켓펀치 소희 착용] 펌프스 412131001 (7cm/4colors)
+2022-06-04 23:06:27.069 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.070 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 39500
+2022-06-04 23:06:27.070 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.070 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned 41203af8-a8c5-45ed-9be1-01ddbdc89528_1000000529.jpg
+2022-06-04 23:06:27.070 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.071 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-41203af8-a8c5-45ed-9be1-01ddbdc89528_1000000529.jpg
+2022-06-04 23:06:27.071 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.071 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.071 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 591
+2022-06-04 23:06:27.071 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.071 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned [★김연아 착용]펌프스 412131003 (7cm/4colors)
+2022-06-04 23:06:27.072 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.072 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 43450
+2022-06-04 23:06:27.072 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.072 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned 397436a2-5182-4f6d-9924-f0b22d00226c_1000000537.jpg
+2022-06-04 23:06:27.072 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.072 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-397436a2-5182-4f6d-9924-f0b22d00226c_1000000537.jpg
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PSEQ) returned 590
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(NAME) returned 펌프스 412131002 (5cm/4colors)
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getInt(PRICE2) returned 43450
+2022-06-04 23:06:27.073 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.074 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(IMAGE) returned a25b6ce7-66f9-4212-aa74-39a3b4b060ff_1000000538.jpg
+2022-06-04 23:06:27.074 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.074 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.getString(THUMB_IMAGE) returned thumbnail-a25b6ce7-66f9-4212-aa74-39a3b4b060ff_1000000538.jpg
+2022-06-04 23:06:27.074 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:27.074 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 
+|-----|------------------------------------------|-------|----------------------------------------------------|--------------------------------------------------------------|
+|pseq |name                                      |price2 |image                                               |thumb_image                                                   |
+|-----|------------------------------------------|-------|----------------------------------------------------|--------------------------------------------------------------|
+|594  |펌프스 412131004 (7cm/3colors)               |39500  |e9e0d69f-93cb-4959-b353-b5aa32e72836_1000000528.jpg |thumbnail-e9e0d69f-93cb-4959-b353-b5aa32e72836_1000000528.jpg |
+|592  |펌프스 412131006 (5.5cm/3colors)             |39500  |c82e440d-87b8-477b-93e5-8b11590aab5e_1000000536.jpg |thumbnail-c82e440d-87b8-477b-93e5-8b11590aab5e_1000000536.jpg |
+|593  |[★로켓펀치 소희 착용] 펌프스 412131001 (7cm/4colors) |39500  |41203af8-a8c5-45ed-9be1-01ddbdc89528_1000000529.jpg |thumbnail-41203af8-a8c5-45ed-9be1-01ddbdc89528_1000000529.jpg |
+|591  |[★김연아 착용]펌프스 412131003 (7cm/4colors)      |43450  |397436a2-5182-4f6d-9924-f0b22d00226c_1000000537.jpg |thumbnail-397436a2-5182-4f6d-9924-f0b22d00226c_1000000537.jpg |
+|590  |펌프스 412131002 (5cm/4colors)               |43450  |a25b6ce7-66f9-4212-aa74-39a3b4b060ff_1000000538.jpg |thumbnail-a25b6ce7-66f9-4212-aa74-39a3b4b060ff_1000000538.jpg |
+|-----|------------------------------------------|-------|----------------------------------------------------|--------------------------------------------------------------|
+
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.commit() returned 
+2022-06-04 23:06:27.075 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:27.076 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:27.076 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-24] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:07:04.676 [INFO ] [org.springframework.context.support.AbstractApplicationContext] [Catalina-utility-2] -- Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jun 04 23:05:36 KST 2022]; parent: Root WebApplicationContext
+2022-06-04 23:07:04.679 [INFO ] [org.springframework.context.support.AbstractApplicationContext] [Catalina-utility-2] -- Closing Root WebApplicationContext: startup date [Sat Jun 04 23:05:33 KST 2022]; root of context hierarchy
+2022-06-04 23:07:04.679 [INFO ] [com.zaxxer.hikari.HikariDataSource] [Catalina-utility-2] -- HikariPool-8 - Shutdown initiated...
+2022-06-04 23:07:04.681 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 1. Connection closed
+2022-06-04 23:07:04.681 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 1. Connection.close() returned 
+2022-06-04 23:07:04.682 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 2. Connection closed
+2022-06-04 23:07:04.682 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 2. Connection.close() returned 
+2022-06-04 23:07:04.683 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 3. Connection closed
+2022-06-04 23:07:04.683 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 3. Connection.close() returned 
+2022-06-04 23:07:04.684 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 4. Connection closed
+2022-06-04 23:07:04.684 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 4. Connection.close() returned 
+2022-06-04 23:07:04.684 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 5. Connection closed
+2022-06-04 23:07:04.684 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 5. Connection.close() returned 
+2022-06-04 23:07:04.685 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 6. Connection closed
+2022-06-04 23:07:04.685 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 6. Connection.close() returned 
+2022-06-04 23:07:04.686 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 7. Connection closed
+2022-06-04 23:07:04.687 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 7. Connection.close() returned 
+2022-06-04 23:07:04.687 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 8. Connection closed
+2022-06-04 23:07:04.687 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 8. Connection.close() returned 
+2022-06-04 23:07:04.688 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 9. Connection closed
+2022-06-04 23:07:04.688 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 9. Connection.close() returned 
+2022-06-04 23:07:04.688 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 10. Connection closed
+2022-06-04 23:07:04.689 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-8 connection closer] -- 10. Connection.close() returned 
+2022-06-04 23:07:04.689 [INFO ] [com.zaxxer.hikari.HikariDataSource] [Catalina-utility-2] -- HikariPool-8 - Shutdown completed.
+2022-06-04 23:07:11.616 [INFO ] [org.springframework.web.context.ContextLoader] [Catalina-utility-2] -- Root WebApplicationContext: initialization started
+2022-06-04 23:07:11.743 [INFO ] [org.springframework.context.support.AbstractApplicationContext] [Catalina-utility-2] -- Refreshing Root WebApplicationContext: startup date [Sat Jun 04 23:07:11 KST 2022]; root of context hierarchy
+2022-06-04 23:07:11.842 [INFO ] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [Catalina-utility-2] -- Loading XML bean definitions from file [C:\develop\work_space\project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\mall_project\WEB-INF\classes\spring\db-context.xml]
+2022-06-04 23:07:12.127 [INFO ] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [Catalina-utility-2] -- Loading XML bean definitions from file [C:\develop\work_space\project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\mall_project\WEB-INF\classes\spring\fileUpload-context.xml]
+2022-06-04 23:07:12.364 [INFO ] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] [Catalina-utility-2] -- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2022-06-04 23:07:12.731 [INFO ] [com.zaxxer.hikari.HikariDataSource] [Catalina-utility-2] -- HikariPool-9 - Starting...
+2022-06-04 23:07:13.141 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [Catalina-utility-2] -- 1. Connection opened
+2022-06-04 23:07:13.141 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [Catalina-utility-2] -- 1. Connection.new Connection returned 
+2022-06-04 23:07:13.141 [INFO ] [com.zaxxer.hikari.pool.PoolBase] [Catalina-utility-2] -- HikariPool-9 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy.getNetworkTimeout()I)
+2022-06-04 23:07:13.142 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [Catalina-utility-2] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:07:13.142 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [Catalina-utility-2] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:07:13.143 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [Catalina-utility-2] -- 1. Connection.isValid(1) returned true
+2022-06-04 23:07:13.143 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [Catalina-utility-2] -- 1. Connection.getTransactionIsolation() returned 2
+2022-06-04 23:07:13.147 [INFO ] [com.zaxxer.hikari.HikariDataSource] [Catalina-utility-2] -- HikariPool-9 - Start completed.
+2022-06-04 23:07:13.280 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 2. Connection opened
+2022-06-04 23:07:13.280 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 2. Connection.new Connection returned 
+2022-06-04 23:07:13.280 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 2. Connection.isReadOnly() returned false
+2022-06-04 23:07:13.280 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 2. Connection.getAutoCommit() returned true
+2022-06-04 23:07:13.306 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 3. Connection opened
+2022-06-04 23:07:13.306 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 3. Connection.new Connection returned 
+2022-06-04 23:07:13.306 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 3. Connection.isReadOnly() returned false
+2022-06-04 23:07:13.306 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 3. Connection.getAutoCommit() returned true
+2022-06-04 23:07:13.332 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 4. Connection opened
+2022-06-04 23:07:13.332 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 4. Connection.new Connection returned 
+2022-06-04 23:07:13.332 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 4. Connection.isReadOnly() returned false
+2022-06-04 23:07:13.332 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 4. Connection.getAutoCommit() returned true
+2022-06-04 23:07:13.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 5. Connection opened
+2022-06-04 23:07:13.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 5. Connection.new Connection returned 
+2022-06-04 23:07:13.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-9 connection adder] -- 5. Connection.isReadOnly() returned false

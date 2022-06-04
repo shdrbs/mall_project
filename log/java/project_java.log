@@ -1,0 +1,211 @@
+2022-06-04 23:08:09.659 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-29] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:09.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-29] -- 1. Connection.commit() returned 
+2022-06-04 23:08:09.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-29] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:08:09.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-29] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:08:09.673 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-29] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:09.685 [INFO ] [com.javateam.project.controller.MemberController] [http-nio-0.0.0.0-8080-exec-24] -- 회원 가입 약관 동의 : contract
+2022-06-04 23:08:14.241 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-13] -- loginForm
+2022-06-04 23:08:19.003 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-28] -- 로그인 처리 : 아이디 shdlsrbs, 패쓰워드 #Abcd1234
+2022-06-04 23:08:19.004 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-28] -- MemberService.checkLogin
+2022-06-04 23:08:19.004 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-28] -- MemberDAO.isMember
+2022-06-04 23:08:19.005 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.isValid(5) returned true
+2022-06-04 23:08:19.005 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:08:19.005 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:08:19.005 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@29e12610
+2022-06-04 23:08:19.006 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.setString(1, "shdlsrbs") returned 
+2022-06-04 23:08:19.006 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- SELECT count(*) FROM member WHERE id='shdlsrbs' 
+
+2022-06-04 23:08:19.007 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- SELECT count(*) FROM member WHERE id='shdlsrbs' 
+ {executed in 0 msec}
+2022-06-04 23:08:19.007 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:08:19.007 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:08:19.007 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2ddea7f4
+2022-06-04 23:08:19.007 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@68dc2c2b
+2022-06-04 23:08:19.008 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:08:19.008 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.next() returned true
+2022-06-04 23:08:19.008 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getInt(COUNT(*)) returned 1
+2022-06-04 23:08:19.008 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.next() returned false
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.close() returned void
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@22e50440
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:19.009 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:19.009 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-28] -- MemberDAO.isMemberByIdPwd
+2022-06-04 23:08:19.010 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:08:19.010 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:08:19.010 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=? AND pwd=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@790f8f58
+2022-06-04 23:08:19.010 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.setString(1, "shdlsrbs") returned 
+2022-06-04 23:08:19.010 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.setString(2, "#Abcd1234") returned 
+2022-06-04 23:08:19.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- SELECT count(*) FROM member WHERE id='shdlsrbs' AND pwd='#Abcd1234' 
+
+2022-06-04 23:08:19.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- SELECT count(*) FROM member WHERE id='shdlsrbs' AND pwd='#Abcd1234' 
+ {executed in 0 msec}
+2022-06-04 23:08:19.011 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:08:19.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:08:19.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@59fee7cf
+2022-06-04 23:08:19.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1c71a03
+2022-06-04 23:08:19.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:08:19.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.next() returned true
+2022-06-04 23:08:19.012 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getInt(COUNT(*)) returned 0
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.next() returned false
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.close() returned void
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@22e50440
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:08:19.013 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:19.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:19.014 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-28] -- MemberService.isActiveMember
+2022-06-04 23:08:19.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:08:19.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:08:19.014 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-28] -- MemberDAO.isActiveMember
+2022-06-04 23:08:19.014 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:08:19.015 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:08:19.015 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.prepareStatement(SELECT useyn FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@d03f86d
+2022-06-04 23:08:19.015 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.setString(1, "shdlsrbs") returned 
+2022-06-04 23:08:19.015 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- SELECT useyn FROM member WHERE id='shdlsrbs' 
+
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- SELECT useyn FROM member WHERE id='shdlsrbs' 
+ {executed in 0 msec}
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@23eda69d
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1ac3b7e1
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:08:19.016 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.next() returned true
+2022-06-04 23:08:19.017 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.getString(USEYN) returned y
+2022-06-04 23:08:19.017 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:08:19.017 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 
+|------|
+|useyn |
+|------|
+|y     |
+|------|
+
+2022-06-04 23:08:19.017 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.next() returned false
+2022-06-04 23:08:19.017 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. ResultSet.close() returned void
+2022-06-04 23:08:19.018 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@22e50440
+2022-06-04 23:08:19.018 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:08:19.018 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:19.018 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.commit() returned 
+2022-06-04 23:08:19.019 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:08:19.019 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:08:19.019 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-28] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:19.022 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-1] -- loginForm
+2022-06-04 23:08:27.519 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-23] -- 로그인 처리 : 아이디 abcd1234, 패쓰워드 #Abcd1234
+2022-06-04 23:08:27.519 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-23] -- MemberService.checkLogin
+2022-06-04 23:08:27.519 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-23] -- MemberDAO.isMember
+2022-06-04 23:08:27.519 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.isValid(5) returned true
+2022-06-04 23:08:27.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:08:27.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:08:27.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@28b9dd3d
+2022-06-04 23:08:27.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:08:27.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- SELECT count(*) FROM member WHERE id='abcd1234' 
+
+2022-06-04 23:08:27.521 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- SELECT count(*) FROM member WHERE id='abcd1234' 
+ {executed in 1 msec}
+2022-06-04 23:08:27.521 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:08:27.521 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:08:27.521 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6dbb564e
+2022-06-04 23:08:27.522 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@42e7766a
+2022-06-04 23:08:27.522 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:08:27.522 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.next() returned true
+2022-06-04 23:08:27.522 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getInt(COUNT(*)) returned 1
+2022-06-04 23:08:27.522 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:08:27.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2022-06-04 23:08:27.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.next() returned false
+2022-06-04 23:08:27.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.close() returned void
+2022-06-04 23:08:27.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@22e50440
+2022-06-04 23:08:27.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:08:27.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:27.524 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:27.524 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-23] -- MemberDAO.isMemberByIdPwd
+2022-06-04 23:08:27.524 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:08:27.524 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:08:27.524 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=? AND pwd=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5c9cffb7
+2022-06-04 23:08:27.525 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:08:27.525 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.setString(2, "#Abcd1234") returned 
+2022-06-04 23:08:27.525 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- SELECT count(*) FROM member WHERE id='abcd1234' AND pwd='#Abcd1234' 
+
+2022-06-04 23:08:27.525 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- SELECT count(*) FROM member WHERE id='abcd1234' AND pwd='#Abcd1234' 
+ {executed in 0 msec}
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3a2a812c
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@d94a901
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.next() returned true
+2022-06-04 23:08:27.526 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getInt(COUNT(*)) returned 1
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.next() returned false
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.close() returned void
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@22e50440
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:27.527 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:27.528 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-23] -- MemberService.isActiveMember
+2022-06-04 23:08:27.528 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:08:27.528 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:08:27.528 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-23] -- MemberDAO.isActiveMember
+2022-06-04 23:08:27.528 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:08:27.528 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:08:27.529 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.prepareStatement(SELECT useyn FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4f63e288
+2022-06-04 23:08:27.529 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:08:27.529 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- SELECT useyn FROM member WHERE id='abcd1234' 
+
+2022-06-04 23:08:27.529 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- SELECT useyn FROM member WHERE id='abcd1234' 
+ {executed in 0 msec}
+2022-06-04 23:08:27.529 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@212e29a9
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@9da502c
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.next() returned true
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.getString(USEYN) returned n
+2022-06-04 23:08:27.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 
+|------|
+|useyn |
+|------|
+|n     |
+|------|
+
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.next() returned false
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. ResultSet.close() returned void
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@22e50440
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:08:27.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.commit() returned 
+2022-06-04 23:08:27.532 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:08:27.532 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:08:27.532 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-23] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:08:28.710 [INFO ] [com.javateam.project.controller.MemberController] [http-nio-0.0.0.0-8080-exec-27] -- 회원 가입폼
+2022-06-04 23:08:28.711 [INFO ] [com.javateam.project.controller.MemberController] [http-nio-0.0.0.0-8080-exec-27] -- 약관 미동의 : false
+2022-06-04 23:08:28.715 [INFO ] [com.javateam.project.controller.MemberController] [http-nio-0.0.0.0-8080-exec-30] -- 회원 가입 약관 동의 : contract

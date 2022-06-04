@@ -1,0 +1,311 @@
+2022-06-04 23:05:36.808 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/cart/cartInsert]}" onto public java.lang.String com.javateam.project.controller.CartController.cartInsert(int,int,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.828 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/index]}" onto public java.lang.String com.javateam.project.controller.HomeController.index(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2022-06-04 23:05:36.828 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/]}" onto public java.lang.String com.javateam.project.controller.HomeController.home()
+2022-06-04 23:05:36.830 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/login/logout],methods=[GET]}" onto public java.lang.String com.javateam.project.controller.LoginController.logout(javax.servlet.http.HttpSession)
+2022-06-04 23:05:36.830 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/login/login_proc],methods=[POST]}" onto public java.lang.String com.javateam.project.controller.LoginController.loginProc(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2022-06-04 23:05:36.831 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/login/login_form]}" onto public org.springframework.web.servlet.ModelAndView com.javateam.project.controller.LoginController.loginForm()
+2022-06-04 23:05:36.835 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/checkInactiveMember],methods=[GET]}" onto public java.lang.String com.javateam.project.controller.MemberController.checkInActiveMember()
+2022-06-04 23:05:36.835 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/check_inactive_member_proc],methods=[POST]}" onto public java.lang.String com.javateam.project.controller.MemberController.checkInactiveMemberProc(com.javateam.project.domain.MemberVO,org.springframework.ui.Model)
+2022-06-04 23:05:36.836 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/member_inactive]}" onto public java.lang.String com.javateam.project.controller.MemberController.memberInactiveProc(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.836 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/contract]}" onto public java.lang.String com.javateam.project.controller.MemberController.constract()
+2022-06-04 23:05:36.836 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/join_form]}" onto public java.lang.String com.javateam.project.controller.MemberController.joinForm(java.lang.String)
+2022-06-04 23:05:36.836 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/join_proc],methods=[POST]}" onto public java.lang.String com.javateam.project.controller.MemberController.joinProc(com.javateam.project.domain.MemberVO)
+2022-06-04 23:05:36.836 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/member_info],methods=[GET]}" onto public java.lang.String com.javateam.project.controller.MemberController.memberInfo()
+2022-06-04 23:05:36.837 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/update_proc],methods=[POST]}" onto public java.lang.String com.javateam.project.controller.MemberController.updateProc(com.javateam.project.domain.MemberDTO,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2022-06-04 23:05:36.837 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/member_update],methods=[GET]}" onto public java.lang.String com.javateam.project.controller.MemberController.memberUpdate()
+2022-06-04 23:05:36.841 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/phone_check_update],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.phoneCheckOnUpdate(java.lang.String,java.lang.String)
+2022-06-04 23:05:36.841 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/email_check_update],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.emailCheckOnUpdate(java.lang.String,java.lang.String)
+2022-06-04 23:05:36.841 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/member_inactive_admin],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.memberInactiveByAdmin(java.lang.String)
+2022-06-04 23:05:36.841 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/zip_address_update],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.zipAddress1Update(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2022-06-04 23:05:36.841 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/email_check],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.emailCheck(java.lang.String)
+2022-06-04 23:05:36.842 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/phone_check],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.phoneCheck(java.lang.String)
+2022-06-04 23:05:36.842 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/id_check],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.idCheck(java.lang.String)
+2022-06-04 23:05:36.842 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/update_role],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.updateRole(java.lang.String,java.lang.String)
+2022-06-04 23:05:36.842 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/phone_update],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.phoneUpdate(java.lang.String,java.lang.String)
+2022-06-04 23:05:36.843 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/address2_update],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.address2Update(java.lang.String,java.lang.String)
+2022-06-04 23:05:36.843 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/member_view],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.javateam.project.domain.MemberVO> com.javateam.project.controller.MemberRestController.memberView(java.lang.String)
+2022-06-04 23:05:36.843 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/member/email_update],methods=[GET],produces=[text/plain;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.javateam.project.controller.MemberRestController.emailUpdate(java.lang.String,java.lang.String)
+2022-06-04 23:05:36.844 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/order/orderInsert]}" onto public java.lang.String com.javateam.project.controller.OrderController.orderInsert(int[],java.lang.String[],int[],int[],javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.844 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/order/orderList]}" onto public java.lang.String com.javateam.project.controller.OrderController.orderlist(int,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.845 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/order/orderDetail],methods=[GET]}" onto public java.lang.String com.javateam.project.controller.OrderController.orderDetail(int,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.845 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/order/orderAll],methods=[GET]}" onto public java.lang.String com.javateam.project.controller.OrderController.orderAll(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+2022-06-04 23:05:36.845 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/order/mypage]}" onto public java.lang.String com.javateam.project.controller.OrderController.mypage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.845 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/product/category]}" onto public java.lang.String com.javateam.project.controller.ProductKindController.category(int,org.springframework.ui.Model)
+2022-06-04 23:05:36.846 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/product/product_detail]}" onto public java.lang.String com.javateam.project.controller.ProductKindController.productDetail(int,org.springframework.ui.Model)
+2022-06-04 23:05:36.846 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/qna/qnaList]}" onto public java.lang.String com.javateam.project.controller.QnaController.qnaList(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.846 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/qna/qnaView]}" onto public java.lang.String com.javateam.project.controller.QnaController.qnaView(int,org.springframework.ui.Model)
+2022-06-04 23:05:36.847 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/qna/qnaWriteForm]}" onto public java.lang.String com.javateam.project.controller.QnaController.qnaWriteForm()
+2022-06-04 23:05:36.847 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/qna/qnaWrite]}" onto public java.lang.String com.javateam.project.controller.QnaController.qnaWrite(com.javateam.project.domain.QnaVO,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2022-06-04 23:05:36.847 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/demo]}" onto public java.lang.String com.javateam.project.controller.TestController.demo()
+2022-06-04 23:05:36.847 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/bootstrap2]}" onto public java.lang.String com.javateam.project.controller.TestController.demo3()
+2022-06-04 23:05:36.848 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/slide_div]}" onto public java.lang.String com.javateam.project.controller.TestController.slideDiv()
+2022-06-04 23:05:36.848 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/slide_final]}" onto public java.lang.String com.javateam.project.controller.TestController.slideFinal()
+2022-06-04 23:05:36.848 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/slide]}" onto public java.lang.String com.javateam.project.controller.TestController.slide()
+2022-06-04 23:05:36.848 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/bootstrap]}" onto public java.lang.String com.javateam.project.controller.TestController.demo2()
+2022-06-04 23:05:36.849 [INFO ] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry] [Catalina-utility-2] -- Mapped "{[/slide2]}" onto public java.lang.String com.javateam.project.controller.TestController.slide2()
+2022-06-04 23:05:36.958 [INFO ] [org.hibernate.validator.internal.util.Version] [Catalina-utility-2] -- HV000001: Hibernate Validator 6.2.0.Final
+2022-06-04 23:05:38.107 [INFO ] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [Catalina-utility-2] -- Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jun 04 23:05:36 KST 2022]; parent: Root WebApplicationContext
+2022-06-04 23:05:38.210 [INFO ] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [Catalina-utility-2] -- Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jun 04 23:05:36 KST 2022]; parent: Root WebApplicationContext
+2022-06-04 23:05:38.316 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2022-06-04 23:05:38.317 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2022-06-04 23:05:38.319 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2022-06-04 23:05:38.320 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2022-06-04 23:05:38.322 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/webjars/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2022-06-04 23:05:38.323 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/bootstrap/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2022-06-04 23:05:38.324 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/bootstrap4/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2022-06-04 23:05:38.326 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/jquery/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#7'
+2022-06-04 23:05:38.327 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/popper/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#8'
+2022-06-04 23:05:38.328 [INFO ] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] [Catalina-utility-2] -- Mapped URL path [/product_images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#9'
+2022-06-04 23:05:38.503 [INFO ] [org.springframework.web.servlet.FrameworkServlet] [Catalina-utility-2] -- FrameworkServlet 'appServlet': initialization completed in 2275 ms
+2022-06-04 23:05:56.648 [INFO ] [com.javateam.project.controller.MemberController] [http-nio-0.0.0.0-8080-exec-20] -- 회원 가입 약관 동의 : contract
+2022-06-04 23:05:59.847 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-17] -- loginForm
+2022-06-04 23:06:05.980 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-19] -- 로그인 처리 : 아이디 shdlsrbs, 패쓰워드 #Abcd1234
+2022-06-04 23:06:05.980 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-19] -- MemberService.checkLogin
+2022-06-04 23:06:05.980 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-19] -- MemberDAO.isMember
+2022-06-04 23:06:06.021 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.isValid(5) returned true
+2022-06-04 23:06:06.028 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:06.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:06.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3d731afb
+2022-06-04 23:06:06.300 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.setString(1, "shdlsrbs") returned 
+2022-06-04 23:06:06.300 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- SELECT count(*) FROM member WHERE id='shdlsrbs' 
+
+2022-06-04 23:06:06.498 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- SELECT count(*) FROM member WHERE id='shdlsrbs' 
+ {executed in 197 msec}
+2022-06-04 23:06:06.498 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:06.509 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:06.510 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@43db0d5b
+2022-06-04 23:06:06.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@6c350cef
+2022-06-04 23:06:06.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:06.523 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:06.528 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getInt(COUNT(*)) returned 1
+2022-06-04 23:06:06.529 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:06.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2022-06-04 23:06:06.530 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:06.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:06.531 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:06.536 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:06.536 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:06.539 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:06.539 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-19] -- MemberDAO.isMemberByIdPwd
+2022-06-04 23:06:06.541 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:06.541 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:06.541 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=? AND pwd=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@e6478d4
+2022-06-04 23:06:06.542 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.setString(1, "shdlsrbs") returned 
+2022-06-04 23:06:06.542 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.setString(2, "#Abcd1234") returned 
+2022-06-04 23:06:06.542 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- SELECT count(*) FROM member WHERE id='shdlsrbs' AND pwd='#Abcd1234' 
+
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- SELECT count(*) FROM member WHERE id='shdlsrbs' AND pwd='#Abcd1234' 
+ {executed in 0 msec}
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5cf4c358
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@7951b06d
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:06.543 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:06.544 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getInt(COUNT(*)) returned 0
+2022-06-04 23:06:06.544 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:06.544 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+2022-06-04 23:06:06.544 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:06.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:06.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:06.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:06.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:06.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:06.545 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-19] -- MemberService.isActiveMember
+2022-06-04 23:06:06.558 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:06.558 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:06.558 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-19] -- MemberDAO.isActiveMember
+2022-06-04 23:06:06.562 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:06.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:06.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.prepareStatement(SELECT useyn FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@77987720
+2022-06-04 23:06:06.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.setString(1, "shdlsrbs") returned 
+2022-06-04 23:06:06.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- SELECT useyn FROM member WHERE id='shdlsrbs' 
+
+2022-06-04 23:06:06.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- SELECT useyn FROM member WHERE id='shdlsrbs' 
+ {executed in 6 msec}
+2022-06-04 23:06:06.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:06.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:06.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3d1297a4
+2022-06-04 23:06:06.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@75674a2d
+2022-06-04 23:06:06.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:06.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:06.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.getString(USEYN) returned y
+2022-06-04 23:06:06.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:06.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 
+|------|
+|useyn |
+|------|
+|y     |
+|------|
+
+2022-06-04 23:06:06.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:06.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:06.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:06.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:06.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:06.574 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.commit() returned 
+2022-06-04 23:06:06.576 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:06.576 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:06.576 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-19] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:06.588 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-13] -- loginForm
+2022-06-04 23:06:16.354 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-14] -- 로그인 처리 : 아이디 sdafasdfasdf, 패쓰워드 ~test1234
+2022-06-04 23:06:16.354 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-14] -- MemberService.checkLogin
+2022-06-04 23:06:16.355 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-14] -- MemberDAO.isMember
+2022-06-04 23:06:16.356 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.isValid(5) returned true
+2022-06-04 23:06:16.356 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:16.356 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:16.356 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@399559e1
+2022-06-04 23:06:16.357 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.setString(1, "sdafasdfasdf") returned 
+2022-06-04 23:06:16.357 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- SELECT count(*) FROM member WHERE id='sdafasdfasdf' 
+
+2022-06-04 23:06:16.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- SELECT count(*) FROM member WHERE id='sdafasdfasdf' 
+ {executed in 0 msec}
+2022-06-04 23:06:16.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:16.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:16.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7c97c0b7
+2022-06-04 23:06:16.358 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@26349c0e
+2022-06-04 23:06:16.359 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:16.359 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:16.359 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(COUNT(*)) returned 0
+2022-06-04 23:06:16.359 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:16.359 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+2022-06-04 23:06:16.360 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:16.360 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:16.360 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:16.360 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:16.360 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:16.360 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:16.360 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-14] -- MemberService.isActiveMember
+2022-06-04 23:06:16.361 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:16.361 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:16.361 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-14] -- MemberDAO.isActiveMember
+2022-06-04 23:06:16.361 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:16.361 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:16.361 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.prepareStatement(SELECT useyn FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5e68defa
+2022-06-04 23:06:16.362 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.setString(1, "sdafasdfasdf") returned 
+2022-06-04 23:06:16.362 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- SELECT useyn FROM member WHERE id='sdafasdfasdf' 
+
+2022-06-04 23:06:16.362 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- SELECT useyn FROM member WHERE id='sdafasdfasdf' 
+ {executed in 0 msec}
+2022-06-04 23:06:16.362 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1cb83ff8
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1e6e048d
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 
+|------|
+|useyn |
+|------|
+|------|
+
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:16.363 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:16.364 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:16.364 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:16.364 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:16.364 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.commit() returned 
+2022-06-04 23:06:16.364 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 23:06:16.365 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.isReadOnly() returned false
+2022-06-04 23:06:16.365 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:16.368 [INFO ] [com.javateam.project.controller.MemberController] [http-nio-0.0.0.0-8080-exec-8] -- 회원 가입 약관 동의 : contract
+2022-06-04 23:06:19.703 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-11] -- loginForm
+2022-06-04 23:06:26.984 [INFO ] [com.javateam.project.controller.LoginController] [http-nio-0.0.0.0-8080-exec-22] -- 로그인 처리 : 아이디 abcd1234, 패쓰워드 #Abcd1234
+2022-06-04 23:06:26.984 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-22] -- MemberService.checkLogin
+2022-06-04 23:06:26.984 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-22] -- MemberDAO.isMember
+2022-06-04 23:06:26.985 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.isValid(5) returned true
+2022-06-04 23:06:26.985 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:26.985 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:26.985 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@62ed6649
+2022-06-04 23:06:26.986 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:06:26.986 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT count(*) FROM member WHERE id='abcd1234' 
+
+2022-06-04 23:06:26.987 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT count(*) FROM member WHERE id='abcd1234' 
+ {executed in 1 msec}
+2022-06-04 23:06:26.987 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:26.987 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:26.988 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@27eff470
+2022-06-04 23:06:26.988 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@67535971
+2022-06-04 23:06:26.988 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:26.988 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:26.989 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getInt(COUNT(*)) returned 1
+2022-06-04 23:06:26.989 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:26.989 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2022-06-04 23:06:26.989 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:26.989 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:26.989 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:26.990 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:26.990 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:26.990 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:26.990 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-22] -- MemberDAO.isMemberByIdPwd
+2022-06-04 23:06:26.990 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:26.991 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:26.991 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.prepareStatement(SELECT count(*) FROM member WHERE id=? AND pwd=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1602d376
+2022-06-04 23:06:26.991 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:06:26.991 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(2, "#Abcd1234") returned 
+2022-06-04 23:06:26.991 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT count(*) FROM member WHERE id='abcd1234' AND pwd='#Abcd1234' 
+
+2022-06-04 23:06:26.992 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT count(*) FROM member WHERE id='abcd1234' AND pwd='#Abcd1234' 
+ {executed in 1 msec}
+2022-06-04 23:06:26.992 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:26.992 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:26.992 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1f5420d1
+2022-06-04 23:06:26.992 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@47c00b3f
+2022-06-04 23:06:26.992 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned true
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getInt(COUNT(*)) returned 1
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned false
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.close() returned void
+2022-06-04 23:06:26.993 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5df3a8e2
+2022-06-04 23:06:26.994 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 23:06:26.994 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.close() returned 
+2022-06-04 23:06:26.994 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.clearWarnings() returned 
+2022-06-04 23:06:26.994 [INFO ] [com.javateam.project.service.MemberService] [http-nio-0.0.0.0-8080-exec-22] -- MemberService.isActiveMember
+2022-06-04 23:06:26.994 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 23:06:26.994 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 23:06:26.994 [INFO ] [com.javateam.project.repository.MemberDAO] [http-nio-0.0.0.0-8080-exec-22] -- MemberDAO.isActiveMember
+2022-06-04 23:06:26.994 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 23:06:26.995 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 23:06:26.995 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.prepareStatement(SELECT useyn FROM member WHERE id=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3a3ca726
+2022-06-04 23:06:26.995 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(1, "abcd1234") returned 
+2022-06-04 23:06:26.995 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT useyn FROM member WHERE id='abcd1234' 
+
+2022-06-04 23:06:26.996 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- SELECT useyn FROM member WHERE id='abcd1234' 
+ {executed in 1 msec}
+2022-06-04 23:06:26.996 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.execute() returned true
+2022-06-04 23:06:26.996 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.new ResultSet returned 
+2022-06-04 23:06:26.996 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4504a18
+2022-06-04 23:06:26.996 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@438e305e
+2022-06-04 23:06:26.996 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getType() returned 1003
+2022-06-04 23:06:26.997 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned true

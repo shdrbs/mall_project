@@ -1,0 +1,419 @@
+2022-06-04 22:36:40.288 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:40.516 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:40.516 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=앵클부츠 412146013 (5.5cm/2colors), kind=2, price1=109000, price2=54500, price3=54500, content=앵클부츠 412146013 (5.5cm/2colors), image=30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg, thumbImage=thumbnail-30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:40.516 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:40.517 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:40.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:40.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7103ab0
+2022-06-04 22:36:40.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "앵클부츠 412146013 (5.5cm/2colors)") returned 
+2022-06-04 22:36:40.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:40.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 109000) returned 
+2022-06-04 22:36:40.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 54500) returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 54500) returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "앵클부츠 412146013 (5.5cm/2colors)") returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg") returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg") returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:40.518 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146013 (5.5cm/2colors)', '2', 109000, 
+54500, 54500, '앵클부츠 412146013 (5.5cm/2colors)', '30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg', 
+'thumbnail-30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:40.519 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146013 (5.5cm/2colors)', '2', 109000, 
+54500, 54500, '앵클부츠 412146013 (5.5cm/2colors)', '30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg', 
+'thumbnail-30f56dff-8a2e-45a2-b30c-598e0954bde7_1000000564.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:36:40.519 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:40.519 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:40.519 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:40.520 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:40.520 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:40.520 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:40.520 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 119000
+2022-06-04 22:36:40.520 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 59500
+2022-06-04 22:36:40.896 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:40.967 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:40.967 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=롱부츠 412148004 (3cm/2color), kind=2, price1=119000, price2=59500, price3=59500, content=롱부츠 412148004 (3cm/2color), image=b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg, thumbImage=thumbnail-b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:40.967 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:40.968 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:40.968 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:40.968 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@178270b2
+2022-06-04 22:36:40.968 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "롱부츠 412148004 (3cm/2color)") returned 
+2022-06-04 22:36:40.968 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:40.968 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 119000) returned 
+2022-06-04 22:36:40.968 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 59500) returned 
+2022-06-04 22:36:40.969 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 59500) returned 
+2022-06-04 22:36:40.969 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "롱부츠 412148004 (3cm/2color)") returned 
+2022-06-04 22:36:40.969 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg") returned 
+2022-06-04 22:36:40.969 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg") returned 
+2022-06-04 22:36:40.969 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:40.969 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:40.970 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '롱부츠 412148004 (3cm/2color)', '2', 119000, 
+59500, 59500, '롱부츠 412148004 (3cm/2color)', 'b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg', 
+'thumbnail-b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:40.970 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '롱부츠 412148004 (3cm/2color)', '2', 119000, 
+59500, 59500, '롱부츠 412148004 (3cm/2color)', 'b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg', 
+'thumbnail-b1beedf6-8307-4ebd-add6-f27b4d7165fd_1000000554.jpg', 'y', 'n', sysdate) 
+ {executed in 0 msec}
+2022-06-04 22:36:40.970 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:40.970 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:40.971 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:40.971 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:40.971 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:40.971 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:40.971 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 99000
+2022-06-04 22:36:40.971 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 49500
+2022-06-04 22:36:41.327 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:41.920 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:41.920 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=앵클부츠 412146012 (6.5cm/3color), kind=2, price1=99000, price2=49500, price3=49500, content=앵클부츠 412146012 (6.5cm/3color), image=b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg, thumbImage=thumbnail-b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:41.920 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:41.921 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:41.921 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:41.922 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2d746ce4
+2022-06-04 22:36:41.922 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "앵클부츠 412146012 (6.5cm/3color)") returned 
+2022-06-04 22:36:41.923 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:41.923 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 99000) returned 
+2022-06-04 22:36:41.924 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 49500) returned 
+2022-06-04 22:36:41.924 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 49500) returned 
+2022-06-04 22:36:41.924 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "앵클부츠 412146012 (6.5cm/3color)") returned 
+2022-06-04 22:36:41.925 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg") returned 
+2022-06-04 22:36:41.926 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg") returned 
+2022-06-04 22:36:41.926 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:41.926 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:41.926 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146012 (6.5cm/3color)', '2', 99000, 
+49500, 49500, '앵클부츠 412146012 (6.5cm/3color)', 'b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg', 
+'thumbnail-b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:41.927 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146012 (6.5cm/3color)', '2', 99000, 
+49500, 49500, '앵클부츠 412146012 (6.5cm/3color)', 'b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg', 
+'thumbnail-b75bfef5-d27d-4e0b-bc06-b52b443023c4_1000000553.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:36:41.927 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:41.927 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:41.927 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:41.927 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:41.927 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:41.927 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:41.928 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 99000
+2022-06-04 22:36:41.928 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 49500
+2022-06-04 22:36:42.277 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:42.569 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:42.569 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=앵클부츠 412146014 (5.5cm/2color), kind=2, price1=99000, price2=49500, price3=49500, content=앵클부츠 412146014 (5.5cm/2color), image=30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg, thumbImage=thumbnail-30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:42.569 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:42.569 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:42.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:42.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3b0ee03a
+2022-06-04 22:36:42.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "앵클부츠 412146014 (5.5cm/2color)") returned 
+2022-06-04 22:36:42.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:42.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 99000) returned 
+2022-06-04 22:36:42.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 49500) returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 49500) returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "앵클부츠 412146014 (5.5cm/2color)") returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg") returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg") returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:42.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146014 (5.5cm/2color)', '2', 99000, 
+49500, 49500, '앵클부츠 412146014 (5.5cm/2color)', '30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg', 
+'thumbnail-30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:42.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146014 (5.5cm/2color)', '2', 99000, 
+49500, 49500, '앵클부츠 412146014 (5.5cm/2color)', '30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg', 
+'thumbnail-30a87fd3-932e-418f-9de0-25e0ee4b03be_1000000552.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:36:42.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:42.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:42.573 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:42.573 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:42.573 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:42.573 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:42.573 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 99000
+2022-06-04 22:36:42.574 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 49500
+2022-06-04 22:36:42.893 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:43.562 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:43.562 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=앵클부츠 412146015 (6cm/3color), kind=2, price1=99000, price2=49500, price3=49500, content=앵클부츠 412146015 (6cm/3color), image=89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg, thumbImage=thumbnail-89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:43.562 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:43.562 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:43.562 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:43.562 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3ac04654
+2022-06-04 22:36:43.562 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "앵클부츠 412146015 (6cm/3color)") returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 99000) returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 49500) returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 49500) returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "앵클부츠 412146015 (6cm/3color)") returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg") returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg") returned 
+2022-06-04 22:36:43.563 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:43.564 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:43.564 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146015 (6cm/3color)', '2', 99000, 
+49500, 49500, '앵클부츠 412146015 (6cm/3color)', '89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg', 
+'thumbnail-89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:43.564 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '앵클부츠 412146015 (6cm/3color)', '2', 99000, 
+49500, 49500, '앵클부츠 412146015 (6cm/3color)', '89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg', 
+'thumbnail-89090da4-2f6d-4c36-8766-2a2b76177c08_1000000551.jpg', 'y', 'n', sysdate) 
+ {executed in 0 msec}
+2022-06-04 22:36:43.564 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:43.565 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:43.565 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:43.565 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:43.565 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:43.565 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:43.565 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 89000
+2022-06-04 22:36:43.565 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 48900
+2022-06-04 22:36:43.925 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:44.097 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:44.097 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=[★유진 착용]앵클부츠 412146009 (3.5cm/3colors), kind=2, price1=89000, price2=48900, price3=40100, content=[★유진 착용]앵클부츠 412146009 (3.5cm/3colors), image=0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg, thumbImage=thumbnail-0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:44.098 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:44.098 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:44.098 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:44.098 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2b4786dd
+2022-06-04 22:36:44.098 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "[★유진 착용]앵클부츠 412146009 (3.5cm/3colors)") returned 
+2022-06-04 22:36:44.098 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:44.098 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 89000) returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 48900) returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 40100) returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "[★유진 착용]앵클부츠 412146009 (3.5cm/3colors)") returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg") returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg") returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:44.099 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '[★유진 착용]앵클부츠 412146009 (3.5cm/3colors)', 
+'2', 89000, 48900, 40100, '[★유진 착용]앵클부츠 412146009 (3.5cm/3colors)', '0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg', 
+'thumbnail-0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:44.100 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '[★유진 착용]앵클부츠 412146009 (3.5cm/3colors)', 
+'2', 89000, 48900, 40100, '[★유진 착용]앵클부츠 412146009 (3.5cm/3colors)', '0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg', 
+'thumbnail-0b916c44-338b-4671-a438-5ddea8277655_1000000548.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:36:44.100 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:44.100 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:44.100 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:44.100 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:44.100 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:44.101 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:44.101 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 109000
+2022-06-04 22:36:44.101 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 54500
+2022-06-04 22:36:44.448 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:36:44.544 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:36:44.544 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=[★위키미키 착용]앵클부츠 412146005 (3cm/3color), kind=2, price1=109000, price2=54500, price3=54500, content=[★위키미키 착용]앵클부츠 412146005 (3cm/3color), image=a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg, thumbImage=thumbnail-a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:36:44.544 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:36:44.545 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:36:44.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:36:44.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@56f71edb
+2022-06-04 22:36:44.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "[★위키미키 착용]앵클부츠 412146005 (3cm/3color)") returned 
+2022-06-04 22:36:44.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "2") returned 
+2022-06-04 22:36:44.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 109000) returned 
+2022-06-04 22:36:44.545 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 54500) returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 54500) returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "[★위키미키 착용]앵클부츠 412146005 (3cm/3color)") returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(7, "a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg") returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(8, "thumbnail-a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg") returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(9, "y") returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(10, "n") returned 
+2022-06-04 22:36:44.546 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '[★위키미키 착용]앵클부츠 412146005 (3cm/3color)', '2', 
+109000, 54500, 54500, '[★위키미키 착용]앵클부츠 412146005 (3cm/3color)', 'a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg', 
+'thumbnail-a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg', 'y', 'n', sysdate) 
+
+2022-06-04 22:36:44.547 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- INSERT INTO product VALUES (product_seq.nextval, '[★위키미키 착용]앵클부츠 412146005 (3cm/3color)', '2', 
+109000, 54500, 54500, '[★위키미키 착용]앵클부츠 412146005 (3cm/3color)', 'a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg', 
+'thumbnail-a9e249e2-23a8-4446-a74d-6a6de8333ff8_1000000547.jpg', 'y', 'n', sysdate) 
+ {executed in 1 msec}
+2022-06-04 22:36:44.547 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.execute() returned false
+2022-06-04 22:36:44.547 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.getUpdateCount() returned 1
+2022-06-04 22:36:44.547 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.isClosed() returned false
+2022-06-04 22:36:44.547 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.close() returned 
+2022-06-04 22:36:44.548 [INFO ] [com.javateam.project.service.ProductService] [main] -- 상품 정보 저장 성공
+2022-06-04 22:36:44.548 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 상품 저장
+2022-06-04 22:36:44.549 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.commit() returned 
+2022-06-04 22:36:44.549 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.setAutoCommit(true) returned 
+2022-06-04 22:36:44.550 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.isReadOnly() returned false
+2022-06-04 22:36:44.552 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.clearWarnings() returned 
+2022-06-04 22:36:44.552 [INFO ] [com.javateam.project.service.ShoeCrawlServiceTest] [main] -- 결과 : true
+2022-06-04 22:36:44.562 [INFO ] [org.springframework.context.support.AbstractApplicationContext] [Thread-3] -- Closing org.springframework.context.support.GenericApplicationContext@37883b97: startup date [Sat Jun 04 22:36:30 KST 2022]; root of context hierarchy
+2022-06-04 22:36:44.563 [INFO ] [com.zaxxer.hikari.HikariDataSource] [Thread-3] -- HikariPool-1 - Shutdown initiated...
+2022-06-04 22:36:44.565 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 1. Connection closed
+2022-06-04 22:36:44.565 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 1. Connection.close() returned 
+2022-06-04 22:36:44.566 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 2. Connection closed
+2022-06-04 22:36:44.566 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 2. Connection.close() returned 
+2022-06-04 22:36:44.566 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 3. Connection closed
+2022-06-04 22:36:44.567 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 3. Connection.close() returned 
+2022-06-04 22:36:44.567 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 4. Connection closed
+2022-06-04 22:36:44.567 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 4. Connection.close() returned 
+2022-06-04 22:36:44.568 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 5. Connection closed
+2022-06-04 22:36:44.568 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 5. Connection.close() returned 
+2022-06-04 22:36:44.568 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 6. Connection closed
+2022-06-04 22:36:44.568 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 6. Connection.close() returned 
+2022-06-04 22:36:44.569 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 7. Connection closed
+2022-06-04 22:36:44.570 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 7. Connection.close() returned 
+2022-06-04 22:36:44.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 8. Connection closed
+2022-06-04 22:36:44.571 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 8. Connection.close() returned 
+2022-06-04 22:36:44.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 9. Connection closed
+2022-06-04 22:36:44.572 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 9. Connection.close() returned 
+2022-06-04 22:36:44.573 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 10. Connection closed
+2022-06-04 22:36:44.573 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 10. Connection.close() returned 
+2022-06-04 22:36:44.580 [INFO ] [com.zaxxer.hikari.HikariDataSource] [Thread-3] -- HikariPool-1 - Shutdown completed.
+2022-06-04 22:36:58.010 [INFO ] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] -- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-06-04 22:36:58.029 [INFO ] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] -- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3d285d7e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@40005471, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2cd76f31, org.springframework.test.context.support.DirtiesContextTestExecutionListener@367ffa75, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49438269, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@ba2f4ec]
+2022-06-04 22:36:58.098 [INFO ] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [main] -- Loading XML bean definitions from URL [file:src/main/resources/spring/db-context.xml]
+2022-06-04 22:36:58.358 [INFO ] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [main] -- Loading XML bean definitions from URL [file:src/main/resources/spring/fileUpload-context.xml]
+2022-06-04 22:36:58.370 [INFO ] [org.springframework.context.support.AbstractApplicationContext] [main] -- Refreshing org.springframework.context.support.GenericApplicationContext@37883b97: startup date [Sat Jun 04 22:36:58 KST 2022]; root of context hierarchy
+2022-06-04 22:36:58.485 [INFO ] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] [main] -- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2022-06-04 22:36:58.718 [INFO ] [com.zaxxer.hikari.HikariDataSource] [main] -- HikariPool-1 - Starting...
+2022-06-04 22:36:59.179 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection opened
+2022-06-04 22:36:59.179 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.new Connection returned 
+2022-06-04 22:36:59.180 [INFO ] [com.zaxxer.hikari.pool.PoolBase] [main] -- HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy.getNetworkTimeout()I)
+2022-06-04 22:36:59.180 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.180 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.184 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.isValid(1) returned true
+2022-06-04 22:36:59.184 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.getTransactionIsolation() returned 2
+2022-06-04 22:36:59.188 [INFO ] [com.zaxxer.hikari.HikariDataSource] [main] -- HikariPool-1 - Start completed.
+2022-06-04 22:36:59.344 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 2. Connection opened
+2022-06-04 22:36:59.344 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 2. Connection.new Connection returned 
+2022-06-04 22:36:59.345 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 2. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.345 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 2. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.374 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 3. Connection opened
+2022-06-04 22:36:59.375 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 3. Connection.new Connection returned 
+2022-06-04 22:36:59.375 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 3. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.375 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 3. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.403 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 4. Connection opened
+2022-06-04 22:36:59.403 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 4. Connection.new Connection returned 
+2022-06-04 22:36:59.404 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 4. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.404 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 4. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.432 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 5. Connection opened
+2022-06-04 22:36:59.432 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 5. Connection.new Connection returned 
+2022-06-04 22:36:59.432 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 5. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.432 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 5. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.467 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 6. Connection opened
+2022-06-04 22:36:59.467 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 6. Connection.new Connection returned 
+2022-06-04 22:36:59.467 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 6. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.467 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 6. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.516 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 7. Connection opened
+2022-06-04 22:36:59.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 7. Connection.new Connection returned 
+2022-06-04 22:36:59.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 7. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.517 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 7. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.549 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 8. Connection opened
+2022-06-04 22:36:59.549 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 8. Connection.new Connection returned 
+2022-06-04 22:36:59.549 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 8. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.549 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 8. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.588 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 9. Connection opened
+2022-06-04 22:36:59.588 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 9. Connection.new Connection returned 
+2022-06-04 22:36:59.589 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 9. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.589 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 9. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.621 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 10. Connection opened
+2022-06-04 22:36:59.622 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 10. Connection.new Connection returned 
+2022-06-04 22:36:59.622 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 10. Connection.isReadOnly() returned false
+2022-06-04 22:36:59.622 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 10. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.760 [INFO ] [com.javateam.project.service.ShoeCrawlServiceTest] [main] -- ShoeCrawlTest
+2022-06-04 22:36:59.771 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.isValid(5) returned true
+2022-06-04 22:36:59.780 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.getAutoCommit() returned true
+2022-06-04 22:36:59.780 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.setAutoCommit(false) returned 
+2022-06-04 22:36:59.792 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ShoeCrawlService.generateShoeProductsDummy
+2022-06-04 22:36:59.793 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- 파일 저장 경로 : C:\develop\work_space\project\mall_project\upload\product_images\\product_images\
+2022-06-04 22:36:59.793 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- url : https://www.saltandchocolate.co.kr/goods/goods_list.php?cateCd=001011
+2022-06-04 22:37:00.499 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price1(정가) : 79000
+2022-06-04 22:37:00.499 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- product price2(판매가) : 47400
+2022-06-04 22:37:00.899 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- targetImagePath : C:\develop\work_space\project\mall_project\upload\product_images\
+2022-06-04 22:37:01.159 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ---------------------------------------------------------
+2022-06-04 22:37:01.160 [INFO ] [com.javateam.project.service.ShoeCrawlService] [main] -- ProductVO : ProductVO [pseq=0, name=펌프스 412211007 (7cm/4colors), kind=1, price1=79000, price2=47400, price3=31600, content=펌프스 412211007 (7cm/4colors), image=f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg, thumbImage=thumbnail-f36d6717-c960-4fb5-bca2-c742eed07418_1000000586.jpg, useyn=y, bestyn=n, indate=null]
+2022-06-04 22:37:01.165 [INFO ] [com.javateam.project.service.ProductService] [main] -- ProductService.insertProduct
+2022-06-04 22:37:01.166 [INFO ] [com.javateam.project.repository.ProductDAO] [main] -- ProductDAO.insertProduct
+2022-06-04 22:37:01.178 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.getAutoCommit() returned false
+2022-06-04 22:37:01.288 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.new PreparedStatement returned 
+2022-06-04 22:37:01.288 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. Connection.prepareStatement(INSERT INTO product VALUES (product_seq.nextval, 
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									?,
+									sysdate)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5965844d
+2022-06-04 22:37:01.292 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(1, "펌프스 412211007 (7cm/4colors)") returned 
+2022-06-04 22:37:01.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(2, "1") returned 
+2022-06-04 22:37:01.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(3, 79000) returned 
+2022-06-04 22:37:01.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(4, 47400) returned 
+2022-06-04 22:37:01.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setInt(5, 31600) returned 
+2022-06-04 22:37:01.293 [INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [main] -- 1. PreparedStatement.setString(6, "펌프스 412211007 (7cm/4colors)") returned 
