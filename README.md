@@ -124,8 +124,6 @@ div.HStyle17
 <P CLASS=HStyle0><h3>- 프로젝트 로드맵(Roadmap)</h3></P>
 <img src="https://github.com/James-Lee/spring_member_board_project/blob/main/show/roadmap.PNG">
 <br>
-<P CLASS=HStyle0><h3>- 프로젝트 기술사양(Specs)</h3></P>
-
 
 
 
