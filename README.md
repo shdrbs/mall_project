@@ -136,16 +136,25 @@ div.HStyle17
 <img src="https://user-images.githubusercontent.com/74443144/172124985-9ff4a950-2d45-4e0a-9816-6a90bfb51a94.PNG">
 <br>
 <P CLASS=HStyle0><h3>- DB 정보</h3></P>
+<P CLASS=HStyle0>- cart</P>	
 <img src="https://user-images.githubusercontent.com/74443144/172128007-f2f9e5a7-338d-404a-ab7b-7d01e6ec40f8.PNG">
-<br>	
+<br>
+<P CLASS=HStyle0>- member</P>	
 <img src="https://user-images.githubusercontent.com/74443144/172128062-8a4e71e6-5237-4e70-bfdb-8b1c553558df.PNG">
 <br>
+<P CLASS=HStyle0>- member_role</P>	
 <img src="https://user-images.githubusercontent.com/74443144/172128097-8c1375b0-5965-4011-a241-4089fc7f423b.PNG">
+<br>
+<P CLASS=HStyle0>- order_detail</P>	
+<img src="https://user-images.githubusercontent.com/74443144/172129014-c551a641-6a06-4cb2-8976-dd670e6ec9a0.PNG">
 <br>	
+<P CLASS=HStyle0>- orders</P>
 <img src="https://user-images.githubusercontent.com/74443144/172128181-7fddca47-02db-4cdd-bac3-fcd835c1a3af.PNG">
 <br>
+<P CLASS=HStyle0>- product</P>	
 <img src="https://user-images.githubusercontent.com/74443144/172128220-9710183b-34cc-4391-a0ac-8f0a1937f0d8.PNG">
 <br>
+<P CLASS=HStyle0>- qna</P>	
 <img src="https://user-images.githubusercontent.com/74443144/172128260-c2131722-e82b-4141-9415-4ace99c88e96.PNG">
 <br>	
 </BODY>
